@@ -1,0 +1,170 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+header {
+  background-color: black;
+  /* padding-top: 1.2 rem; */
+  height: 67vh;
+  margin-top: 0px;
+}
+      /* Nav Section */      
+.Ulist {
+  list-style: none;
+  padding-left: 0px;
+}
+.Ulist li {
+  display: inline-block;
+  padding: 10px;
+}
+.Ulist li a {
+  color: white;
+  font-family: poppins;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 0px;
+  padding: 10px;
+}
+#nav-list li a:hover {
+  border-bottom: 1px solid rgb(78, 214, 162); 
+  transition: border-bottom 2s;
+}
+.text-center {
+  text-align: center;
+}
+
+      /* Title & Social-Icons */
+.title-text {
+  color: white;
+  font-family: Merriweather;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  font-size: 2.8rem;
+  padding-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+#header-section {
+  background-color: rgb(55, 102, 143);
+  width: 98.8vw;
+  height: 4.8rem;
+  margin-top: 6rem;
+}
+.social-icons li a {
+  font-size: 1.3rem;
+  padding: 0rem 0.5rem;
+}
+.social-icons li {
+  border-radius: 35%;
+}
+
+.social-icons {
+  margin-top: 0.8rem;
+}
+.social-icons li:hover {
+  box-shadow: 0px 0px 9px 1px rgb(178, 186, 194);
+  transition: box-shadow 0.2s;
+}
+
+/* About Section */
+
+#Profile-div {
+  background-image: url("..//Portfolio-attachments/profile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  border: 4px solid rgb(255, 251, 251);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -7rem; 
+  box-shadow: 1px 2px 4px 1px rgb(219, 213, 213);
+   
+}
+.about {
+   margin: 0rem 14rem;
+}
+.about p {
+  margin-top: 0.5em;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(117, 112, 112);
+  
+}
+
+/* ---Skills/ portfolio Section--- */
+
+.skills {
+  width: 100%;
+  background-color: #e2dcdc;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.section-title {
+  color: #2857a4;
+  font-size: 44px;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 300;
+  letter-spacing: 1.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+/*--Progress-bar--*/
+
+#skills-tile {
+  height: 65%; 
+  padding: 2%;
+  margin: 0% 14%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skill-progress {
+  width: 12rem;
+  background-color: rgb(216, 221, 220);
+  height: 35px;
+  border-radius: 32px 32px 32px 32px;
+  box-shadow: inset 0px 0px 3px 1px #a9afad ;
+}
+.skill-level {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  border-radius: 16px 0px 0px 16px;
+  background-color: rgb(17, 41, 94);
+  
+}
+
+.skill-level > p {
+
+  padding-left: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+}
+
+#level-3 {
+  width: 82%;
+  background-color: rgb(192, 64, 18);
+}
+#level-1 {
+  width: 62%;
+  background-color: rgb(13, 166, 172);
+}
+#level-5 {
+  width: 40%;
+  background-color: rgb(133, 13, 69);
+}
